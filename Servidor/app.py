@@ -35,7 +35,7 @@ def Agregar():
     
     nombre = str(request.args.get('nombre'))
     dpi = int(request.args.get('dpi'))
-    print("----------------------- SE ESTA EJECUTANDO UN METODO POST -----------------------")
+    print("----------------------- SE ESTA EJECUTANDO UN METODO POST*** -----------------------")
     
 
     resultado = crud.AgregarCliente(dpi, nombre)

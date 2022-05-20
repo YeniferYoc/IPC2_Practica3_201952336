@@ -1,5 +1,5 @@
 class Cliente:
-    def __init__(self, nombre, dpi):
+    def __init__(self, nombre, dpi):#JAJA
         self.nombre = nombre
         self.dpi = dpi
         
